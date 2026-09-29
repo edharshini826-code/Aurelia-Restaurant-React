@@ -1,0 +1,67 @@
+/* Responsive Media Queries */
+
+@media (max-width: 1024px) {
+  .section-container {
+    padding: 3rem 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 70px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-medium);
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+    display: none;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cart-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .booking-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100%;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 1.25rem;
+  }
+}

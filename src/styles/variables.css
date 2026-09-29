@@ -1,0 +1,44 @@
+:root {
+  /* Brand Palette: Luxury Gold & Obsidian Charcoal */
+  --bg-dark: #0b0d11;
+  --bg-surface: #14171f;
+  --bg-card: #1c202a;
+  --bg-card-hover: #242936;
+  --bg-glass: rgba(20, 23, 31, 0.78);
+  
+  --primary-gold: #d4af37;
+  --primary-gold-light: #f5d77f;
+  --primary-gold-dark: #9e8020;
+  --primary-glow: rgba(212, 175, 55, 0.25);
+
+  --accent-amber: #e67e22;
+  --accent-crimson: #c0392b;
+  --accent-emerald: #27ae60;
+  --accent-blue: #2980b9;
+
+  --text-primary: #f8f9fa;
+  --text-secondary: #c9ccd4;
+  --text-muted: #838a9b;
+  --text-gold: #e5c365;
+
+  --border-subtle: rgba(212, 175, 55, 0.15);
+  --border-medium: rgba(212, 175, 55, 0.35);
+  --border-solid: #2e3444;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 35px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 8px 30px rgba(212, 175, 55, 0.22);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --font-serif: 'Cinzel', serif, Georgia;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s ease;
+}
