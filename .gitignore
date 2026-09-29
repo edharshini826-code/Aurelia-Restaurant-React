@@ -29,3 +29,10 @@ dist-ssr/
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# Reports & Asset Generation Scripts (Code-only repo)
+*.pdf
+*.docx
+*.py
+REPORT_TASK_2_REACTJS.md
+report_screenshots/
